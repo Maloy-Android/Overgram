@@ -102,13 +102,6 @@ android {
         }
     }
     namespace 'org.telegram.messenger'
-
-    externalNativeBuild {
-        cmake {
-            version '3.31.6+'
-        }
-    }
-
     defaultConfig {
         externalNativeBuild {
             cmake {
